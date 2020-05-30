@@ -55,7 +55,7 @@ Doing your taxes: you know what you have to do, but instead of just being able t
 
 Don't cause this frustration to your users!
 
-##### Statistics
+#### Statistics
 
 > One in six Americans (17%), 45 years of age or older, representing **16.5 million** middle-age and older adults, report *some form of visual imparment* even when wearing glasses or contact lenses.
 
@@ -69,11 +69,11 @@ We have to make sure that our content is legdable.
 
 These are potential users that want to give you their money!!
 
-The web by it's very nature is already accessible. You need to put in the work to make it accessable.
+The Web, by it's very nature, is already accessible. You need to put in the work to make it accessable.
 
 The first webpage was built in 1991 and it is fully accessible! You can get all the information if you put on a screen reader. It's fully responsive, and can be used on any  device.
 
-Why should we care about accessiblity?
+**Why should we care about accessiblity?**
 * We're making it inaccesible
 * Human Rights - let's let everyone use our cool stuff!
 * Legal Issue
@@ -92,5 +92,5 @@ Why should we care about accessiblity?
 |                 | * Form buttons have a descripted value.                                                                                                                                                                                         |
 |                 | * Form inputs have associated text labels.                                                                                                                                                                                      |
 |                 | * Embedded multimedia is identified via  accessible text.                                                                                                                                                                       |
-|                 | * Frames are appropriately titled are appropriately titled                                                                                                                                                                      |
+|                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                      |
 
