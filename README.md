@@ -32,17 +32,17 @@ You can find this course here at www.frontendmasters.com/courses/web-accessibili
 
 #### Types of Disabilities
 
-One problem is that accessibility terms themselves lend double meanings into a multitude of sub-fields in tech.
+      One problem is that accessibility terms themselves lend double meanings into a multitude of sub-fields in tech.
 
-**Web performance** is a similar field when you are talking about potential users, making your web site accessable, taking into account of people in developing nations that are using slow connections or old devices.
+      **Web performance** is a similar field when you are talking about potential users, making your web site accessable, taking into account of people in developing nations that are using slow connections or old devices.
 
-**Internationaliztion** making your website useable for everyone, making sure that your strings are translated and can be read by people speaking a variety of languages.
+      **Internationaliztion** making your website useable for everyone, making sure that your strings are translated and can be read by people speaking a variety of languages.
 
-**Design** Web Design, UI Design, Responsive Design, content hierarchy, Workflow. Closely related, coming from a place of empathy and  understanding our users and their needs.
+      **Design** Web Design, UI Design, Responsive Design, content hierarchy, Workflow. Closely related, coming from a place of empathy and  understanding our users and their needs.
 
 Depending on who you ask, you may get slightly different definitions, which creates doubt of if Web Accesesibility encompass these specific domains.
 
-For today's class we will focus in on people with disabilities and how to help them use the Web.
+* For today's class we will focus in on people with disabilities and how to help them use the Web.
 
 
 > More specifically, Web accessibilitiy  means that people with  disabilities can perceive, understand, navigate, and interact with the web and that they can contribute to the Web.
