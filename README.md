@@ -42,7 +42,7 @@ You can find this course here at www.frontendmasters.com/courses/web-accessibili
 
 Depending on who you ask, you may get slightly different definitions, which creates doubt of if Web Accesesibility encompass these specific domains.
 
-* For today's class we will focus in on people with disabilities and how to help them use the Web.
+* For this lesson we will focus in on people with disabilities and how to help them use the Web.
 
 
 > More specifically, Web accessibilitiy means that people with disabilities can **perceive, understand, navigate, and interact** with the web and that they can **contribute to the Web**.
