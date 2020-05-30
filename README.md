@@ -84,21 +84,13 @@ Why should we care about accessiblity?
 ##### WebAIM Checklist
 
 
-| Success Criteria| WebAIM's Recommendations                       |
-| ----------------|------------------------------------------------|
-| 1.1.1 Non-text  | * All images, form image buttons, and image map|
-| content         |hot spots have appropriate, equivalent alt text.|
-|(Level A)        | * Images that do  not convey content, are      |
-|                 | decorative, or contain content that is already |
-|                 | conveyed in text are given null alt text       |
-|                 | (alt="") or implemented as CSS backgrounds. All|
-|                 | linked images have descriptive alternate text. |
-|                 | * Equivalent alternatives to complex images are|
-|                 | provided in context or on a separate (linked   |
-|                 | and/or referenced via longdesc) page           |
-|                 | * Form buttons have a descripted value.        |
-|                 | * Form inputs have associated text labels      |
-|                 | * Embedded multimedia is identified via        |
-|                 | accessible text.                               |
-|                 | * Frames are appropriately titled              |
+| Success Criteria| WebAIM's Recommendations                                                                                                                                                                                                        |
+| ----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1.1 Non-text  | * All images, form image buttons, and image map hot spots have appropriate, equivalent alt text.                                                                                                                                |
+| content         | * Images that do  not convey content, are decorative, or contain content that is already conveyed in text are given null alt text (alt="") or implemented as CSS backgrounds. All linked images have descriptive alternate text.|
+|(Level A)        | * Equivalent alternatives to complex images are provided in context or on a separate (linked and/or referenced via longdesc) page.                                                                                              |
+|                 | * Form buttons have a descripted value.                                                                                                                                                                                         |
+|                 | * Form inputs have associated text labels.                                                                                                                                                                                      |
+|                 | * Embedded multimedia is identified via  accessible text.                                                                                                                                                                       |
+|                 | * Frames are appropriately titled are appropriately titled                                                                                                                                                                      |
 
