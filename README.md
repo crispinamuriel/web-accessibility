@@ -200,7 +200,7 @@ Grey glow/blueglow, make you own checkbox/button if you are going to use bootstr
 
 If you go to the [New York Times](https://www.nytimes.com/) you will see only two links at the top and if you tab through you will see an element appear called "Skip to Navigation". The website will recognize a keyboard only user by seeing that they are beginning to tab through the site, and help them skip to the actual content or main nav with this element that will appear called a **Skip Link**.
 
-**HTML file**
+**HTML file:**
 ```
 <a href="#maincontent" class="skip-link">
   Skip to Main Content
@@ -214,7 +214,7 @@ If you go to the [New York Times](https://www.nytimes.com/) you will see only tw
   <!--Main Content Goes Here>
 </div>
 ```
-**CSS file**
+**CSS file:**
 ```
 #skip-link {
   position: absolute;
@@ -230,6 +230,11 @@ If you go to the [New York Times](https://www.nytimes.com/) you will see only tw
   top: 0;
 }
 ```
+***3 Simple Steps to use a Skip Link***
+
+* Creates an anchor tag to the main content
+* By default, hides the anchor tag (via top: -40)
+* On focus, shows the anchor tag (via top: 0) by retuning the normal top value to 0
 
 
 
