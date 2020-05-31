@@ -92,7 +92,7 @@ The first webpage was built in 1991 and it is fully accessible! You can get all 
 |                 | * Form buttons have a descripted value.                                                                                                                                                                                         |
 |                 | * Form inputs have associated text labels.                                                                                                                                                                                      |
 |                 | * Embedded multimedia is identified via  accessible text.                                                                                                                                                                       |
-|                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                      |
+|                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                     |
 
 [WebAIM.org](https://webaim.org/)
 
@@ -169,11 +169,26 @@ One of the biggest things you can do to make your site a lot easier to navigate 
 
 #### Tabindex Values
 
-* **Negative Value** - A negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
+* **Negative Integer** - A negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
 
-* **'0' Value** - A value of '0' means that the element should be focusable and reachable via sequential keyboard navvigation, but its relative order is defined by the platform convention
+* **'0'** - A value of '0' means that the element should be focusable and reachable via sequential keyboard navvigation, but its relative order is defined by the platform convention
 
-* **Positive Value** - A positive value means that the element should be focusable and reachable via sequential keyboard navigation; its relative order is defined by the value  of the attribute: the sequential follow the increasing number of the tabindex. *If several elements **share** the same **tabindex**, their relative order **follows** thei reletive position in the document.*
+* **Positive Integer** - A positive value means that the element should be focusable and reachable via sequential keyboard navigation; its relative order is defined by the value  of the attribute: the sequential follow the increasing number of the tabindex. *If several elements **share** the same **tabindex**, their relative order **follows** their reletive position in the document.* Similar to Z-index, making it tabable and then bumping it up in order. 
+
+This may be used in ways for advanced accessability. Twitter has a way they are using this, given a high tab index where you have a visusally hidden div that is trying to communicate to the screen reader only. (Be careful! It's best practice to let screen reader's sort things on their own).
+
+Focus indicator, css reset zero out the styling for focus indicator, make sure that userrs have a visual cue and see which element you're at. Chrome has a blue focus, css resets should not remove this! JavaScript is used to focus on this. Take the titles for those single page websites, and put a negative tab index on it, whwen u click the link. -1 is saying that I want to control this but i want users to call focus on it.
+
+#### Visible Focus
+
+| Success Criteria| WebAIM's Recommendations                                                                                                                   |
+| ----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.4.7 Focus     | * It is visually apparent which page elment has the current keyboard focus (i.e., as you tab through the page, you can see where you are). |
+| Visible         |                                                                                                                                            |
+|(Level AA)       | * Equivalent alternatives to complex images are provided in context or on a separate (linked and/or referenced via longdesc) page.         |
+
+
+
 
 
 
