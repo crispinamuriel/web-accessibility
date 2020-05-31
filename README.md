@@ -114,15 +114,15 @@ Learning about the different types of disabilies will help a developer understan
 
 * Attention-Deficit/Hyperactivity Disorders
 
- :yellow_heart: Keeping your font size big
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:yellow_heart: Keeping your font size big
 
- :yellow_heart: Good spacing between topics
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:yellow_heart: Good spacing between topics
 
- :yellow_heart: Line length
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:yellow_heart: Line length
 
 * Blindness or Low Vision
 
- :blue_heart: Screen Readers
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:blue_heart: Screen Readers
 
  :blue_heart: Color Contrast
 
@@ -130,15 +130,15 @@ Learning about the different types of disabilies will help a developer understan
 
 * Deaf / Hard-of-Hearing
 
- :orange_heart: closed captioning media
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_heart: closed captioning media
 
 * Learning Disabilities
 
- :green_heart: Keyboard only
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_heart: Keyboard only
 
- :green_heart: Single switch
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_heart: Single switch
 
- :green_heart: Space between click targets
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_heart: Space between click targets
 
 * Speech and Language Disabilities
 
