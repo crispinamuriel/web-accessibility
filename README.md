@@ -49,7 +49,7 @@ Depending on who you ask, you may get slightly different definitions, which crea
 
 - *WAI-ARIA spec*
 
-#### Let's talk numbers
+#### Let's talk numbers...
 
 Doing your taxes: you know what you have to do, but instead of just being able to hit yes on a website you are given all of these forms to fill out a tax formand you're not sure on a certain step and you're lost. That negative frustration is the experience that is happening to your users who may have a disaibity and are useing your website.
 
@@ -93,4 +93,53 @@ The first webpage was built in 1991 and it is fully accessible! You can get all 
 |                 | * Form inputs have associated text labels.                                                                                                                                                                                      |
 |                 | * Embedded multimedia is identified via  accessible text.                                                                                                                                                                       |
 |                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                      |
+
+[WebAIM.org](https://webaim.org/)
+
+* Provides a lot of great resources on Web Accessability.
+* Gone through the entire WC3 Spec and pulled out the important points for us as developers to follow.
+
+### All Websites Should Be
+* Perceivable
+* Operable
+* Understandable
+* Robust - leans to contribution angle, don't want incredible experience for non-disability and then simple for disability. We want a comparable experience for both.
+
+Today Developers use Div tags instead of semantic HTML and this takes away from the ability for screen readers to gain information from these components
+
+
+## Types of Disability
+
+Learning about the different types of disabilies will help a developer understand the needs of the users that will come to your website.
+
+* Attention-Deficit/Hyperactivity Disorders
+ - Keeping your font size big
+ - Good spacing between topics
+ - Line length
+* Blindness or Low Vision
+ - Screen Readers
+ - Color Contrast
+* Brain Injuries
+* Deaf / Hard-of-Hearing
+ - closed captioning media
+* Learning Disabilities
+* Physical Disabilities
+ - Keyboard only
+ - Single switch
+ - Space between click targets
+* Speech and Language Disabilities
+* Modifications that are helpful for users with disabilities are helpful to all users. These modifications will bring positive feedback from all users. It's easy to understand, navigate, use the keyboard, etc. Black/White is not helpful.
+
+## How to Browse the Web
+* Screen Readers
+* Head Wand / Mouth Sticks
+* Keyboard Shortcuts
+* Keyboard Only
+* Single Switch
+* Magnification
+
+There are many diverse ways to use the web. We see many times that people with any motor disability that prefer to use the keyboard. This means that your website should be accessible **by keyboard only** (signing up, logging in, checkout out shopping cart, etc).
+Bigger click targets and spacing around those targets help people who use headwands and mouth sticks.
+
+
 
