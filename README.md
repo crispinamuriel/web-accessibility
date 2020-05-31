@@ -167,7 +167,7 @@ Does your site read nicely on a screen reader?
 One of the biggest things you can do to make your site a lot easier to navigate by keyboard is __***giving a keyboard shortcut to the common tasks within your website***__!
 
 
-#### Tabindex Values
+#### :white_check_mark: Tabindex Values
 
 * **Negative Integer** - A negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
 
@@ -179,7 +179,7 @@ This may be used in ways for advanced accessability. Twitter has a way they are 
 
 Focus indicator, css reset zero out the styling for focus indicator, make sure that userrs have a visual cue and see which element you're at. Chrome has a blue focus, css resets should not remove this! JavaScript is used to focus on this. Take the titles for those single page websites, and put a negative tab index on it, whwen u click the link. -1 is saying that I want to control this but i want users to call focus on it.
 
-#### Visible Focus
+#### :white_check_mark: Visible Focus
 
 | Success Criteria               | WebAIM's Recommendations                                                                                                                   |
 | -------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
