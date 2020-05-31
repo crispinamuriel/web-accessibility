@@ -145,15 +145,31 @@ Learning about the different types of disabilies will help a developer understan
 :eye_speech_bubble: Modifications that are helpful for users with disabilities are **helpful to all users**. These modifications will bring positive feedback from all users. It's easy to understand, navigate, use the keyboard, etc. Black/White is not helpful.
 
 ## How to Browse the Web
-* Screen Readers
+* Screen Readers - non visual way to view websites, software that parses all of the content of your site and reads to user
 * Head Wand / Mouth Sticks
 * Keyboard Shortcuts
 * Keyboard Only
-* Single Switch
+* Single Switch - button that uses column/row iteration on a virtual keyboard for input/navigation
 * Magnification
 
 There are many diverse ways to use the web. We see many times that people with any motor disability that prefer to use the keyboard. This means that your website should be accessible **by keyboard only** (signing up, logging in, checkout out shopping cart, etc).
 Bigger click targets and spacing around those targets help people who use headwands and mouth sticks.
+
+When thinking about users that may be navigating your website using a **single switch** ,a single button with a virtual keyboard that switches between iterating through rows and columns on each click, you may have to think about how many  times a user has to tab through your elements to get to the actionable items.
+
+Does your site read nicely on a screen reader?
+
+### Keyboard shortcuts
+
+* Using all of the features of your site with just a keyboard
+* Using main workflow items of your site can be done relitavely quickly, (how many keystorkes does it take to get to a certain area).
+
+One of the biggest things you can do to make your site a lot easier to navigate by keyboard is giving a keyboard shortcut to the common tasks within your website!
+
+
+
+
+
 
 
 
