@@ -164,7 +164,7 @@ Does your site read nicely on a screen reader?
 * Using all of the features of your site with just a keyboard
 * Using main workflow items of your site can be done relitavely quickly, (how many keystorkes does it take to get to a certain area).
 
-One of the biggest things you can do to make your site a lot easier to navigate by keyboard is giving a keyboard shortcut to the common tasks within your website!
+One of the biggest things you can do to make your site a lot easier to navigate by keyboard is __**giving a keyboard shortcut** to **the common tasks** within your website__!
 
 
 
