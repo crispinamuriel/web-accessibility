@@ -112,7 +112,7 @@ Today Developers use Div tags instead of semantic HTML and this takes away from 
 
 Learning about the different types of disabilies will help a developer understand the needs of the users that will come to your website.
 
-* Attention-Deficit/Hyperactivity Disorders
+:gift_heart: Attention-Deficit/Hyperactivity Disorders
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:yellow_heart: Keeping your font size big
 
@@ -120,19 +120,19 @@ Learning about the different types of disabilies will help a developer understan
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:yellow_heart: Line length
 
-* Blindness or Low Vision
+:gift_heart: Blindness or Low Vision
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:blue_heart: Screen Readers
 
- :blue_heart: Color Contrast
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:blue_heart: Color Contrast
 
-* Brain Injuries
+:gift_heart: Brain Injuries
 
-* Deaf / Hard-of-Hearing
+:gift_heart: Deaf / Hard-of-Hearing
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :orange_heart: closed captioning media
 
-* Learning Disabilities
+:gift_heart: Learning Disabilities
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_heart: Keyboard only
 
@@ -140,9 +140,9 @@ Learning about the different types of disabilies will help a developer understan
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:green_heart: Space between click targets
 
-* Speech and Language Disabilities
+:gift_heart: Speech and Language Disabilities
 
-* Modifications that are helpful for users with disabilities are **helpful to all users**. These modifications will bring positive feedback from all users. It's easy to understand, navigate, use the keyboard, etc. Black/White is not helpful.
+:gift_heart: Modifications that are helpful for users with disabilities are **helpful to all users**. These modifications will bring positive feedback from all users. It's easy to understand, navigate, use the keyboard, etc. Black/White is not helpful.
 
 ## How to Browse the Web
 * Screen Readers
