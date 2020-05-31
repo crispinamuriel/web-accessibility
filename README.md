@@ -186,6 +186,35 @@ Focus indicator, css reset zero out the styling for focus indicator, make sure t
 | 2.4.7 Focus Visible (Level AA) | * It is visually apparent which page elment has the current keyboard focus (i.e., as you tab through the page, you can see where you are). |
 
 
+If you go to big box websites and you start tabbing, you'll notice that every single interacitve item has some visual focus state to it! It's common anti pattern to remove the focus states. 
+
+When you do a fresh instll of OSX in preferences you have to go back in "non focusable items" are not on by default. We'll follow up on the exercise breaks.
+
+A blue line 
+
+Boot strap made accessability more mainstream, bootstrap will give you a ton of accessibility items for free.
+
+Grey glow/blueglow, make you own checkbox/button if you are going to use bootstrap that's why accessiblity needs to be a shipping requirement.
+
+#### :white_check_mark: Skip Links
+
+If you go to the [New York Times](https://www.nytimes.com/) you will see only two links at the top and if you tab through you will see an element appear called "Skip to Navigation/main content/comments" Will recognize a keyboard only user and help them skip to the actual content or main nav.
+
+```
+<a href="#maincontent" class="skip-link">
+  Skip to Main Content
+</a>
+...
+<div class="navigation">
+  <!-- Your navigation -->
+</div>
+...
+<div id="maincontent" tabindex="-1">
+  <!--Main Content Goes Here>
+</div>
+```
+
+
 
 
 
