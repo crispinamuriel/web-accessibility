@@ -214,6 +214,22 @@ If you go to the [New York Times](https://www.nytimes.com/) you will see only tw
 </div>
 ```
 
+```
+#skip-link {
+  position: absolute;
+  top: -40;
+  left: 0;
+  background: red;
+  color: white;
+  padding: 8px;
+  z-index: 9999;
+}
+
+#skip-link:focus {
+  top: 0;
+}
+```
+
 
 
 
