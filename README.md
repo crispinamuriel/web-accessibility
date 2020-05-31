@@ -167,6 +167,15 @@ Does your site read nicely on a screen reader?
 One of the biggest things you can do to make your site a lot easier to navigate by keyboard is __***giving a keyboard shortcut to the common tasks within your website***__!
 
 
+#### Tabindex Values
+
+* **Negative Value** - A negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
+
+* **'0' Value** - A value of '0' means that the element should be focusable and reachable via sequential keyboard navvigation, but its relative order is defined by the platform convention
+
+* **Positive Value** - A positive value means that the element should be focusable and reachable via sequential keyboard navigation; its relative order is defined by the value  of the attribute: the sequential follow the increasing number of the tabindex. *If several elements **share** the same **tabindex**, their relative order **follows** thei reletive position in the document.*
+
+
 
 
 
