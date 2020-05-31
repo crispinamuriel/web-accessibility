@@ -113,20 +113,20 @@ Today Developers use Div tags instead of semantic HTML and this takes away from 
 Learning about the different types of disabilies will help a developer understand the needs of the users that will come to your website.
 
 * Attention-Deficit/Hyperactivity Disorders
- - Keeping your font size big
- - Good spacing between topics
- - Line length
+ :yellow_heart: Keeping your font size big
+ :yellow_heart: Good spacing between topics
+ :yellow_heart: Line length
 * Blindness or Low Vision
- - Screen Readers
- - Color Contrast
+ :blue_heart: Screen Readers
+ :blue_heart: Color Contrast
 * Brain Injuries
 * Deaf / Hard-of-Hearing
- - closed captioning media
+ :orange_heart: closed captioning media
 * Learning Disabilities
 * Physical Disabilities
- - Keyboard only
- - Single switch
- - Space between click targets
+ :green_heart: Keyboard only
+ :green_heart: Single switch
+ :green_heart: Space between click targets
 * Speech and Language Disabilities
 * Modifications that are helpful for users with disabilities are helpful to all users. These modifications will bring positive feedback from all users. It's easy to understand, navigate, use the keyboard, etc. Black/White is not helpful.
 
