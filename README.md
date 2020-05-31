@@ -198,7 +198,7 @@ Grey glow/blueglow, make you own checkbox/button if you are going to use bootstr
 
 #### :white_check_mark: Skip Links
 
-If you go to the [New York Times](https://www.nytimes.com/) you will see only two links at the top and if you tab through you will see an element appear called "Skip to Navigation/main content/comments" Will recognize a keyboard only user and help them skip to the actual content or main nav.
+If you go to the [New York Times](https://www.nytimes.com/) you will see only two links at the top and if you tab through you will see an element appear called "Skip to Navigation". The website will recognize a keyboard only user by seeing that they are beginning to tab through the site, and help them skip to the actual content or main nav with this element that will appear called a **Skip Link**.
 
 ```
 <a href="#maincontent" class="skip-link">
