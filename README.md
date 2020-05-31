@@ -181,14 +181,9 @@ Focus indicator, css reset zero out the styling for focus indicator, make sure t
 
 #### Visible Focus
 
-| Success Criteria| WebAIM's Recommendations                                                                                                                   |
-| ----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| 2.4.7 Focus     | * It is visually apparent which page elment has the current keyboard focus (i.e., as you tab through the page, you can see where you are). |
-| Visible         |                                                                                                                                            |
-|(Level AA)       | * Equivalent alternatives to complex images are provided in context or on a separate (linked and/or referenced via longdesc) page.         |
-
-
-
+| Success Criteria            | WebAIM's Recommendations                                                                                                                   |
+| ----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.4.7 FocusVisible(Level AA)| * It is visually apparent which page elment has the current keyboard focus (i.e., as you tab through the page, you can see where you are). |
 
 
 
