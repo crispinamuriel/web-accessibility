@@ -92,7 +92,7 @@ The first webpage was built in 1991 and it is fully accessible! You can get all 
 |                 | * Form buttons have a descripted value.                                                                                                                                                                                         |
 |                 | * Form inputs have associated text labels.                                                                                                                                                                                      |
 |                 | * Embedded multimedia is identified via  accessible text.                                                                                                                                                                       |
-|                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                      |
+|                 | * Frames are appropriately titled are appropriately titled.                                                                                                                                                                     |
 
 [WebAIM.org](https://webaim.org/)
 
@@ -197,6 +197,76 @@ What we're talking about here is if you have a basic site and a <div> on that si
 DIV's and SPAN's are not tabable by default, any element can be made TABable or not TABABLE by developers. We use the HTML property **tabindex** and set it to 0 to be able to give that element a TABable quality.
 
 
+
+
+#### :white_check_mark: Tabindex Values
+
+* **Negative Integer** - A negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
+
+* **'0'** - A value of '0' means that the element should be focusable and reachable via sequential keyboard navvigation, but its relative order is defined by the platform convention
+
+* **Positive Integer** - A positive value means that the element should be focusable and reachable via sequential keyboard navigation; its relative order is defined by the value  of the attribute: the sequential follow the increasing number of the tabindex. *If several elements **share** the same **tabindex**, their relative order **follows** their reletive position in the document.* Similar to Z-index, making it tabable and then bumping it up in order. 
+
+This may be used in ways for advanced accessability. Twitter has a way they are using this, given a high tab index where you have a visusally hidden div that is trying to communicate to the screen reader only. (Be careful! It's best practice to let screen reader's sort things on their own).
+
+Focus indicator, css reset zero out the styling for focus indicator, make sure that userrs have a visual cue and see which element you're at. Chrome has a blue focus, css resets should not remove this! JavaScript is used to focus on this. Take the titles for those single page websites, and put a negative tab index on it, whwen u click the link. -1 is saying that I want to control this but i want users to call focus on it.
+
+#### :white_check_mark: Visible Focus
+
+| Success Criteria               | WebAIM's Recommendations                                                                                                                   |
+| -------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.4.7 Focus Visible (Level AA) | * It is visually apparent which page elment has the current keyboard focus (i.e., as you tab through the page, you can see where you are). |
+
+
+If you go to big box websites and you start tabbing, you'll notice that every single interacitve item has some visual focus state to it! It's common anti pattern to remove the focus states. 
+
+When you do a fresh instll of OSX in preferences you have to go back in "non focusable items" are not on by default. We'll follow up on the exercise breaks.
+
+A blue line 
+
+Boot strap made accessability more mainstream, bootstrap will give you a ton of accessibility items for free.
+
+Grey glow/blueglow, make you own checkbox/button if you are going to use bootstrap that's why accessiblity needs to be a shipping requirement.
+
+#### :white_check_mark: Skip Links
+
+If you go to the [New York Times](https://www.nytimes.com/) you will see only two links at the top and if you tab through you will see an element appear called "Skip to Navigation". The website will recognize a keyboard only user by seeing that they are beginning to tab through the site, and help them skip to the actual content or main nav with this element that will appear called a **Skip Link**.
+
+**HTML file:**
+```
+<a href="#maincontent" class="skip-link">
+  Skip to Main Content
+</a>
+...
+<div class="navigation">
+  <!-- Your navigation -->
+</div>
+...
+<div id="maincontent" tabindex="-1">
+  <!--Main Content Goes Here>
+</div>
+```
+**CSS file:**
+```
+#skip-link {
+  position: absolute;
+  top: -40;
+  left: 0;
+  background: red;
+  color: white;
+  padding: 8px;
+  z-index: 9999;
+}
+
+#skip-link:focus {
+  top: 0;
+}
+```
+***3 Simple Steps to use a Skip Link***
+
+* Creates an anchor tag to the main content
+* By default, hides the anchor tag (via top: -40)
+* On focus, shows the anchor tag (via top: 0) by retuning the normal top value to 0
 
 
 
