@@ -166,6 +166,38 @@ Does your site read nicely on a screen reader?
 
 One of the biggest things you can do to make your site a lot easier to navigate by keyboard is __***giving a keyboard shortcut to the common tasks within your website***__!
 
+EX: Twitter.com
+
+Shift + ?  All Twitter actions can be done with at most two keystrokes!
+
+This is a keyboard only mod, There is a shortkey to get to the tweets? Qll big social networks has these shortcuts, any vim sers  will like that all keyboard shortcuts follow the VIM HJKL? flow. This is a nice easy way while you're at your keyboard to update your status quickly.
+
+jkup/shortcut - zero dependancy keyboard shortcut indicator.
+
+#### Basics of keyboard navigation
+
+Tabbable elements
+
+Basic concept: On any website hitting the tab key will move you forward one tabable item. and Hitting shift+tab will allow you to move backwards one item
+
+##### Most Frequet TABable items:
+* <a>
+* <button>
+* <input>
+* <select>
+* <textarea>
+* <iframe>
+
+What we're talking about here is if you have a basic site and a <div> on that site that is not tabable, and you have a <ul> that is also **not** TABable, then you have an achor <a>, this will be the first item that is TABable. Thenmaybe later on you have a form, the idea is that websites have a ton of markup, we dont want every element on the page to be TABable. The **presentational** items like <div></div>, <span> these are not TABable by default, the stuff that you interact with comes TABable by default. Using the correct markup for the correct elements.
+
+#### Tabindex
+
+        <div tabindex="0">I'm focusable</div>
+
+DIV's and SPAN's are not tabable by default, any element can be made TABable or not TABABLE by developers. We use the HTML property **tabindex** and set it to 0 to be able to give that element a TABable quality.
+
+
+
 
 
 
