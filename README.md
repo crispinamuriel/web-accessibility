@@ -1,5 +1,6 @@
 # Frontend Masters Course - Web Accessibility
 ## Web Accessibility by Jon Kuperman
+![](https://i.imgur.com/rkq7Feq.gif)
 
 You can find this course here at www.frontendmasters.com/courses/web-accessibility
 
